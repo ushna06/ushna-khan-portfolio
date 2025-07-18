@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.view-project-btn {
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 8px;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
